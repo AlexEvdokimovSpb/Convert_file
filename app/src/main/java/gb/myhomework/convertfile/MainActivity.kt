@@ -11,9 +11,9 @@ import gb.myhomework.convertfile.mvp.model.Converter
 import gb.myhomework.convertfile.mvp.model.Image
 import gb.myhomework.convertfile.mvp.presenter.MainPresenter
 import gb.myhomework.convertfile.mvp.view.MainView
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import moxy.MvpAppCompatActivity
 import moxy.ktx.moxyPresenter
-
 
 class MainActivity : MvpAppCompatActivity(), MainView {
 
@@ -22,7 +22,7 @@ class MainActivity : MvpAppCompatActivity(), MainView {
     }
 
     private val presenter by moxyPresenter {
-        MainPresenter(Converter(this))
+        MainPresenter(AndroidSchedulers.mainThread(), Converter(this))
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
