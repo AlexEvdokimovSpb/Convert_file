@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Convert file</string>
+    <string name="click_me">Click me!</string>
+    <string name="converting">Converting…</string>
+    <string name="successful">The conversion was successful!</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">The conversion failed!</string>
+    <string name="caceled">Conversion canceled</string>
+</resources>

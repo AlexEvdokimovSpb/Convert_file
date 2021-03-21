@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертировать</string>
+    <string name="click_me">Нажми меня!</string>
+    <string name="converting">Идет конвертация…</string>
+    <string name="cancel">Отмена</string>
+    <string name="successful">Конвертация прошла успешно!</string>
+    <string name="error">Конвертация не удалась!</string>
+    <string name="caceled">Конвертация отменена</string>
+</resources>
